@@ -2,12 +2,8 @@ This project is on -
 
 ->Implementing Quotation services as a separate web service. The broker service should then use
 a web services client to connect to each of these services, requesting quotations.
-Given your previous work on the vetting service, you are also required to implement this service in the new system.
-To help you with this, you have found a version 2.0 of the local service implementation that includes a vetting service.
-This revised source code is provided on moodle. Please be aware that the changed package structure has been done
-on purpose to make the implementation of the web services easier. This is because the package structure is used to
-define XML namespaces in web services and the Jax-WS implementation does not like working with services whose
-interface and implementation are in separate packages. 
+Please be aware that the changed package structure has been done on purpose to make the implementation of the web services easier. This is because the package structure is used to
+define XML namespaces in web services and the Jax-WS implementation does not like working with services whose interface and implementation are in separate packages. 
 
 There are 4 packages-
 core, implementation, quotation, vetting and test.
